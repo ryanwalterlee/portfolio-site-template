@@ -1,1 +1,23 @@
+.route-container {
+  display:flex;
+  flex-direction: column;
+}
+
+.App {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+.App-container {
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .App-container {
+      width: 100vw;
+  }
+}
 

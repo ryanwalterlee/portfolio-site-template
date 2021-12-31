@@ -85,7 +85,7 @@ export default function NavBar() {
 
       {/* app header */}
       <CssBaseline />
-      <AppBar position="fixed" open={open}>
+      <AppBar position="sticky" open={open}>
         <Toolbar>
           <IconButton
             color="inherit"

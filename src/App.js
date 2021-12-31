@@ -3,20 +3,26 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
-import NavBar from './components/NavBar/NavBar';
+import ProfileHeader from './components/ProfileHeader/ProfileHeader';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/aboutme" element={<AboutMe />} />
-          {/* <Route path="/skills" element={<Skills/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/workexperience" element={<WorkExperience/>} /> */}
-        </Routes>
+        <div className="App-container">
+          <ProfileHeader />
+          
+          <div className="route-container">
+            <Routes>
+              <Route path="/" element={<Home/>} />
+              <Route path="/aboutme" element={<AboutMe />} />
+              {/* <Route path="/skills" element={<Skills/>} />
+              <Route path="/projects" element={<Projects/>} />
+              <Route path="/workexperience" element={<WorkExperience/>} /> */}
+            </Routes>
+          </div>
+        </div>
+
       </div>
     );
   }
