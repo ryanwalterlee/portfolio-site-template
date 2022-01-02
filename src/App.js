@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Home from './components/Home/Home';
+import Home from './components/Skills/Skills';
 import AboutMe from './components/AboutMe/AboutMe';
 import ProfileHeader from './components/ProfileHeader/ProfileHeader';
+import Skills from './components/Skills/Skills';
 
 class App extends Component {
   render() {
@@ -16,8 +17,8 @@ class App extends Component {
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/aboutme" element={<AboutMe />} />
-              {/* <Route path="/skills" element={<Skills/>} />
-              <Route path="/projects" element={<Projects/>} />
+              <Route path="/skills" element={<Skills/>} />
+              {/* <Route path="/projects" element={<Projects/>} />
               <Route path="/workexperience" element={<WorkExperience/>} /> */}
             </Routes>
           </div>
