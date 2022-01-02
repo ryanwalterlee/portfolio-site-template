@@ -5,6 +5,8 @@ import Home from './components/Skills/Skills';
 import AboutMe from './components/AboutMe/AboutMe';
 import ProfileHeader from './components/ProfileHeader/ProfileHeader';
 import Skills from './components/Skills/Skills';
+import WorkExperience from './components/WorkExperience/WorkExperience';
+import Projects from './components/Projects/Projects';
 
 class App extends Component {
   render() {
@@ -18,8 +20,8 @@ class App extends Component {
               <Route path="/" element={<Home/>} />
               <Route path="/aboutme" element={<AboutMe />} />
               <Route path="/skills" element={<Skills/>} />
-              {/* <Route path="/projects" element={<Projects/>} />
-              <Route path="/workexperience" element={<WorkExperience/>} /> */}
+              <Route path="/projects" element={<Projects/>} />
+              <Route path="/workexperience" element={<WorkExperience/>} />
             </Routes>
           </div>
         </div>

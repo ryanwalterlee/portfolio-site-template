@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Markdown from "markdown-to-jsx";
+import React from "react";
 import AboutMePost from "./AboutMePost";
 
 const introduction = {
@@ -11,7 +10,7 @@ const introduction = {
 const interest = {
   title: "Other Interests (besides SWE of course)",
   content:
-    "I enjoy doing calisthenics, in fact, I'm currently the Captain of NUS Calisthenics, a CCA where we help all students to achieve their better self. I'm also a huge marvel and Naruto fan and my youtube suggestions can vouch for that.",
+    "I enjoy doing calisthenics, in fact, I'm currently the Captain of NUS Calisthenics, a CCA where we help all students to achieve their better self. I'm also a huge MCU and Naruto fan and my youtube suggestions can vouch for that.",
 };
 
 const career = {
