@@ -14,7 +14,7 @@ export default function TabNavBar() {
   return (
     <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
       <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons allowScrollButtonsMobile>
-        <Tab label="About me" component={Link} to="/aboutme" />
+        <Tab label="About me" component={Link} to="/" />
         <Tab label="Skills" component={Link} to="skills" />
         <Tab label="Projects" component={Link} to="projects" />
         <Tab label="Work Experience" component={Link} to="workexperience" />
