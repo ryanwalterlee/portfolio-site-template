@@ -22,7 +22,7 @@ export default function FrameworkPost(props) {
       <CardContent>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <MiniProfileImage/>
-          <Typography variant="h5" sx={{ my: 1, mx: 1.5 }}>
+          <Typography variant="h5" sx={{ my: 1, mx: 2 }}>
             {props.title}
           </Typography>
         </Box>

@@ -16,10 +16,10 @@ class App extends Component {
           
           <div className="route-container">
             <Routes>
-              <Route path="/" element={<AboutMe />} />
-              <Route path="/skills" element={<Skills/>} />
-              <Route path="/projects" element={<Projects/>} />
-              <Route path="/workexperience" element={<WorkExperience/>} />
+              <Route path="/ryan-portfolio-website" element={<AboutMe />} />
+              <Route path="/ryan-portfolio-website/skills" element={<Skills/>} />
+              <Route path="/ryan-portfolio-website/projects" element={<Projects/>} />
+              <Route path="/ryan-portfolio-website/workexperience" element={<WorkExperience/>} />
             </Routes>
           </div>
         </div>

@@ -13,12 +13,12 @@
 
 .App-container {
   height: 100%;
-  width: 800px;
+  width: 60%;
   margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
   .App-container {
-      width: 95vw;
+    width: 95vw;
   }
 }
