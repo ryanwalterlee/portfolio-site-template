@@ -20,7 +20,7 @@ const useStyles = makeStyles({
   },
   media: {
     display: "flex",
-    "@media (max-width: 500px)": { // eslint-disable-line no-useless-computed-key
+    "@media (max-width: 1000px)": { // eslint-disable-line no-useless-computed-key
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
