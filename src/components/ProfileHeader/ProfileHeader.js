@@ -2,11 +2,12 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { CardActions } from '@mui/material';
 import DisplayPicture from "./../../assets/DisplayPicture.jpg";
-import { makeStyles } from '@mui/styles';
-import TabNavBar from './../TabNavBar/TabNavBar';
+import TabNavBar from './TabNavBar/TabNavBar';
 import Typography from '@mui/material/Typography';
-import Box from '@material-ui/core/Box';
+import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function ProfileHeader() {
 
@@ -23,12 +24,21 @@ export default function ProfileHeader() {
           sx={{ width: 200, height: 200 }}
         />
       </Box>
-      <CardContent>
-        <Typography variant="body2" align='center' color="text.secondary">Ryan Walter Lee</Typography>
-        <Typography variant="body2" align='center' color="text.secondary">Year 2 NUS Computer Science</Typography>
+      <CardContent sx={{ display: "flex", justifyContent: "center", alignItems:"center" }}>
+        <a href="https://www.linkedin.com/in/ryan-walter-lee-534512193/" target="_blank" >
+          <LinkedInIcon color="primary" sx={{mx: 3}} style={{ fontSize:40 }} />
+        </a>
+        <Box>
+          <Typography variant="body2" align='center' color="text.secondary">Ryan Walter Lee</Typography>
+          <Typography variant="body2" align='center' color="text.secondary">Year 2 NUS Computer Science</Typography>
+        </Box>
+        <a href="https://github.com/ryanwalterlee" target="_blank" style={{ textDecoration: "none" }} >
+          <GitHubIcon sx={{mx: 3}} style={{ color: "black", fontSize:38 }} />
+        </a>
+      
       </CardContent>
-      <CardActions>
-        <TabNavBar className="tab-nav-bar"/>
+      <CardActions sx={{ display: "flex", flexDirection: "column"}}>
+        <TabNavBar/>
       </CardActions>
     </Card>
     )

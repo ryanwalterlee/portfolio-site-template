@@ -7,7 +7,6 @@ import { CardMedia } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import Container from "@mui/material/Container";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   image: {
@@ -18,8 +17,16 @@ const useStyles = makeStyles({
   },
   hover: {
     transform: "scale3d(1.05, 1.05, 1)"
+  },
+  media: {
+    display: "flex",
+    "@media (max-width: 500px)": { // eslint-disable-line no-useless-computed-key
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+    }
   }
-});
+})
 
 export default function ProjectPost(props) {
   const classes = useStyles();
@@ -28,7 +35,7 @@ export default function ProjectPost(props) {
     if (props.info.image) {
       return (
         <CardMedia
-          sx={{ height: 200, width: 200, mx: 2 }}
+          sx={{ height: 300, width: 300, mx: 2 }}
           className={classes.image}
           component="img"
           image={props.info.image}
@@ -65,8 +72,12 @@ export default function ProjectPost(props) {
             </Box>
           </Box>
 
-          <Box sx={{ display: "flex" }}>
-            {renderImageConditionally()}
+          <Box sx={{ display: "flex" }}
+            className={classes.media}>
+
+            <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
+              {renderImageConditionally()}
+            </Box>
 
             <Container
               sx={{
