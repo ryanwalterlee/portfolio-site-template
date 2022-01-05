@@ -6,8 +6,8 @@ import MiniProfileImage from "../MiniProfileImage/MiniProfileImage";
 
 export default function WorkExperiencePost(props) {
   const createDescription = () => {
-    return props.info.content.map((content) => (
-      <li>
+    return props.info.content.map((content, index) => (
+      <li key={index}>
         <Typography sx={{ mt: 1 }}>{content}</Typography>
       </li>
     ));

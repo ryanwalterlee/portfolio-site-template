@@ -5,8 +5,8 @@ import { Paper } from "@mui/material";
 export default function FrameworkLogo(props) {
 
   const createDescription = () => {
-    return props.description.map((description) => (
-      <li>
+    return props.description.map((description, index) => (
+      <li key={index}>
         <Typography>{description}</Typography>
       </li>
     ))

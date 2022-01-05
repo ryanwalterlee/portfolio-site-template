@@ -9,7 +9,7 @@ export default function LanguagesPost(props) {
 
   const createListOfLanguages = () => {
     return props.skills.map((skill) => (
-      <Languages src={skill.logo} name={skill.name} />
+      <Languages key={skill.name} src={skill.logo} name={skill.name} />
     ))
   }
 

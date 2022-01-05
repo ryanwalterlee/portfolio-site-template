@@ -13,7 +13,7 @@ export default function FrameworkPost(props) {
 
   const createListOfSkills = () => {
     return props.skills.map((skill) => (
-      <FrameworkLogo src={skill.logo} name={skill.name} description={skill.description}/>
+      <FrameworkLogo key={skill.name} src={skill.logo} name={skill.name} description={skill.description}/>
     ))
   }
 
