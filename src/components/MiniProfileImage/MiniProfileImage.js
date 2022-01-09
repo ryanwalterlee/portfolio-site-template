@@ -1,4 +1,4 @@
-import DisplayPicture from "./../../assets/DisplayPicture.jpg";
+import { displayPicture } from '../../Information';
 import Avatar from '@mui/material/Avatar';
 
 export default function MiniProfileImage() {
@@ -6,7 +6,7 @@ export default function MiniProfileImage() {
   return (
     <Avatar
       alt="Ryan"
-      src={DisplayPicture}
+      src={displayPicture}
       sx={{ width: 30, height: 30 }}
     />
   )
