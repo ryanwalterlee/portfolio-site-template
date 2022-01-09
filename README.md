@@ -5,9 +5,10 @@ All pages can be modified from inside a single file which is found in src/Inform
 
 ## Steps to use the template
 1. Clone the repository
-2. Go to src > Information.js
-3. Edit your portfolio information
-4. Deploy on github pages! (find a guide on how to deploy)
+2. run `npm i` to install dependencies
+3. Go to src > Information.js
+4. Edit your portfolio information
+5. Deploy on github pages! (find a guide on how to deploy)
 
 ## Example of Information.js
 ![Information.js](./src/assets/Information.jpg)
