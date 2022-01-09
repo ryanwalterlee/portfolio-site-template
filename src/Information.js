@@ -1,6 +1,7 @@
 // ALL INFORMATION SHOULD BE HERE
 
 // IMPORT STATEMENTS FOR IMAGES HERE
+// YOU MIGHT HAVE TO ADD IMAGES TO src/assets IF YOU WANT OTHER IMAGES
 import html from 'programming-languages-logos/src/html/html.svg'
 import javascript from 'programming-languages-logos/src/javascript/javascript.svg'
 import python from 'programming-languages-logos/src/python/python.svg'

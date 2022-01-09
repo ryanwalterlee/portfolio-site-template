@@ -1,3 +1,6 @@
+# Creator
+created by: Ryan Walter Lee (not copied from another repo)
+
 # Portfolio template guide
 The code is structured and abstracted to the point that anyone with minimal react experience can edit and use this portfolio site.
 
