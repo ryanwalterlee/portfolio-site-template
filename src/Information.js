@@ -14,6 +14,9 @@ import FinancialCalculator from "./assets/FinancialCalculator.jpg";
 
 import DisplayPicture from "./assets/DisplayPicture.jpg";
 
+// REPOSITORY NAME (IMPORTANT!!)
+export const repositoryName = "portfolio-site-template";
+
 // FOR PROFILE HEADER
 export const displayPicture = DisplayPicture;
 
@@ -96,7 +99,7 @@ export const projectInformation = [
     content:
       "The template that is used by the site you are looking at right now. The code is abstracted to the point that all information can be edited from a single file which is 'src/Information.js'. Clone this repo and start building your dream portfolio site in a social media profile theme.",
     tech: "React, React Router, Material UI",
-    link: "https://github.com/ryanwalterlee/ryan-portfolio-website",
+    link: "https://github.com/ryanwalterlee/portfolio-site-template",
   },
 ];
 

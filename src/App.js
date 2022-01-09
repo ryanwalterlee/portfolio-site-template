@@ -6,6 +6,12 @@ import ProfileHeader from './components/ProfileHeader/ProfileHeader';
 import Skills from './components/Skills/Skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import Projects from './components/Projects/Projects';
+import { repositoryName } from './Information';
+
+const aboutMe = "/" + repositoryName;
+const skills = "/" + repositoryName + "/skills";
+const projects = "/" + repositoryName + "/projects";
+const work = "/" + repositoryName + "/workexperience";
 
 class App extends Component {
   render() {
@@ -16,10 +22,10 @@ class App extends Component {
           
           <div className="route-container">
             <Routes>
-              <Route path="/ryan-portfolio-website" element={<AboutMe />} />
-              <Route path="/ryan-portfolio-website/skills" element={<Skills/>} />
-              <Route path="/ryan-portfolio-website/projects" element={<Projects/>} />
-              <Route path="/ryan-portfolio-website/workexperience" element={<WorkExperience/>} />
+              <Route path={"/portfolio-site-template"} element={<AboutMe />} />
+              <Route path={skills} element={<Skills/>} />
+              <Route path={projects} element={<Projects/>} />
+              <Route path={work} element={<WorkExperience/>} />
             </Routes>
           </div>
         </div>

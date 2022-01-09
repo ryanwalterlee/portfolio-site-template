@@ -1,6 +1,6 @@
 {
-  "name": "ryan-portfolio-website",
-  "homepage": "https://ryanwalterlee.github.io/ryan-portfolio-website",
+  "name": "portfolio-website-template",
+  "homepage": "https://ryanwalterlee.github.io/portfolio-site-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
