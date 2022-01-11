@@ -8,6 +8,7 @@ import python from 'programming-languages-logos/src/python/python.svg'
 import java from 'programming-languages-logos/src/java/java.svg'
 import r from 'programming-languages-logos/src/r/r.svg'
 import css from 'programming-languages-logos/src/css/css.svg'
+import MySQLlogo from './assets/MySQLlogo.svg'
 import ReactLogo from './assets/ReactLogo.svg'
 import VueLogo from './assets/VueLogo.svg'
 
@@ -21,8 +22,7 @@ export const repositoryName = "portfolio-site-template";
 // FOR PROFILE HEADER
 export const displayPicture = DisplayPicture;
 
-export const linkedin =
-  "https://www.linkedin.com/in/ryan-walter-lee-534512193/";
+export const linkedin = "https://www.linkedin.com/in/ryan-walter-lee-534512193/";
 export const github = "https://github.com/ryanwalterlee";
 
 export const name = "Ryan Walter Lee";
@@ -57,6 +57,7 @@ export const languages = [
   { logo: python, name: "Python" },
   { logo: java, name: "Java" },
   { logo: r, name: "R" },
+  { logo: MySQLlogo, name: "SQL"}
 ]
 
 export const frameworks = [
@@ -65,7 +66,7 @@ export const frameworks = [
 ]
 
 export const libraries = [
-  {logo: javascript, name: "Javascript", description: ["Express.js", "Puppeteer"]},
+  {logo: javascript, name: "Javascript", description: ["Express.js", "mysql2", "Puppeteer"]},
   {logo: python, name: "Python", description: ["NumPy", "Pandas", "Sci-kit Learn"]}
 ]
 
@@ -79,10 +80,28 @@ export const libraries = [
 // link (string) (a working link)
 export const projectInformation = [
   {
+    title: "Attendex Backend",
+    content: 
+      `An attendance app that keeps tracks of multiple classes with each class 
+      having multiple dates. 
+      A user can create an account with this application to store 
+      their classes for future records. 
+      A MySQL relational database was used to store this app's data 
+      with the endpoints made with Express.js. 
+      Click on this card to view the code, schema and documentation for this project`,
+    tech: "Express.js, mysql2 driver, MySQL, MySQL workbench",
+    link: "https://github.com/Attendex/attendex-backend"
+  },
+  {
     title: "Financial Calculator",
     image: FinancialCalculator,
     content:
-      "Use this web application to do fundamental analysis on stocks. Enter the required information about the company and the web app will help calculate the statistics that indicates if this stock is worthy of being added to your portfolio based on Fundamental Analysis Principles from a book by Warren Buffett.",
+      `Use this web application to do fundamental analysis on stocks. 
+      Enter the required information about the company 
+      and the web app will help calculate the statistics 
+      that indicates if this stock is worthy of being added to your portfolio 
+      based on Fundamental Analysis Principles from a book by Warren Buffett. 
+      Click on this card to view the code and the deployed app`,
     tech: "Vue.js, Vuex, Vue Router, Axios",
     link: "https://github.com/ryanwalterlee/Financial-Calculator",
   },
@@ -90,7 +109,9 @@ export const projectInformation = [
   {
     title: "MacroTrends Webscrapping API",
     content:
-      "An API that scrapes past 10 years EPS and PE ratio of a company that is on the stock exchange. A ticker is needed for the GET request. This API is used by Financial Calculator Project",
+      `An API that scrapes past 10 years EPS and PE ratio of a company
+      that is on the stock exchange. A ticker is needed for the GET request. 
+      This API is used by Financial Calculator Project. Click on this card to view the code on Github`,
     tech: "Express.js, Puppeteer",
     link: "https://github.com/ryanwalterlee/Historic-Financial-WebScraping-API",
   },
@@ -98,7 +119,12 @@ export const projectInformation = [
   {
     title: "Personal Portfolio Website Template",
     content:
-      "The template that is used by the site you are looking at right now. The code is abstracted to the point that all information can be edited from a single file which is 'src/Information.js'. Clone this repo and start building your dream portfolio site in a social media profile theme.",
+      `The template that is used by the site you are looking at right now. 
+      The code is abstracted to the point that all information can be edited 
+      from a single file which is 'src/Information.js'. 
+      Clone this repo and start building your dream portfolio site 
+      in a social media profile theme. Click on this card to visit the Github repo 
+      and maybe clone it for your own use`,
     tech: "React, React Router, Material UI",
     link: "https://github.com/ryanwalterlee/portfolio-site-template",
   },
