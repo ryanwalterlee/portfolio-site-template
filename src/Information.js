@@ -61,7 +61,7 @@ export const languages = [
 ]
 
 export const frameworks = [
-  {logo: ReactLogo, name: "React", description: ["React Router", "Material UI"]},
+  {logo: ReactLogo, name: "React.js", description: ["React Router", "Material UI"]},
   {logo: VueLogo, name: "Vue.js", description: ["Vuex Store", "Vue Router", "Vuetify"]}
 ]
 
@@ -125,7 +125,7 @@ export const projectInformation = [
       Clone this repo and start building your dream portfolio site 
       in a social media profile theme. Click on this card to visit the Github repo 
       and maybe clone it for your own use`,
-    tech: "React, React Router, Material UI",
+    tech: "React.js, React Router, Material UI",
     link: "https://github.com/ryanwalterlee/portfolio-site-template",
   },
 ];

@@ -3,14 +3,15 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Box from "@material-ui/core/Box";
 import MiniProfileImage from "../MiniProfileImage/MiniProfileImage";
+import Transition from "../helpers/Transition";
 
 export default function AboutMePost(props) {
 
-  return (
+  const post = (
     <Card sx={{ my: 4 }}>
       <CardContent>
         <Box sx={{ display: "flex", alignItems: "center" }}>
-          <MiniProfileImage/>
+          <MiniProfileImage />
           <Typography variant="h5" sx={{ my: 1, mx: 2 }}>
             {props.title}
           </Typography>
@@ -20,5 +21,9 @@ export default function AboutMePost(props) {
         </Typography>
       </CardContent>
     </Card>
+  )
+
+  return (
+    <Transition children={post}></Transition>     
   );
 }

@@ -4,6 +4,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@material-ui/core/Box";
 import MiniProfileImage from "../MiniProfileImage/MiniProfileImage";
 import FrameworkLogo from "./FrameworkLogo";
+import Grow from "@mui/material/Grow";
+import Transition from "../helpers/Transition";
 
 // props:
 // skills: [{logo: {image source}, name: {name of framework}, description: {elaborate}}]
@@ -18,18 +20,20 @@ export default function FrameworkPost(props) {
   }
 
   return (
-    <Card sx={{ my: 4 }}>
-      <CardContent>
-        <Box sx={{ display: "flex", alignItems: "center" }}>
-          <MiniProfileImage/>
-          <Typography variant="h5" sx={{ my: 1, mx: 2 }}>
-            {props.title}
-          </Typography>
-        </Box>
-        <Box sx={{ mt: 2, mx: 2, display: 'flex', flexWrap: 'wrap'}}>
-          {createListOfSkills()}
-        </Box>
-      </CardContent>
-    </Card>
+    <Transition children={
+      <Card sx={{ my: 4 }}>
+        <CardContent>
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            <MiniProfileImage/>
+            <Typography variant="h5" sx={{ my: 1, mx: 2 }}>
+              {props.title}
+            </Typography>
+          </Box>
+          <Box sx={{ mt: 2, mx: 2, display: 'flex', flexWrap: 'wrap'}}>
+            {createListOfSkills()}
+          </Box>
+        </CardContent>
+      </Card>
+    }/>
   );
 }

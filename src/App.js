@@ -22,7 +22,7 @@ class App extends Component {
           
           <div className="route-container">
             <Routes>
-              <Route path={"/portfolio-site-template"} element={<AboutMe />} />
+              <Route path={aboutMe} element={<AboutMe />} />
               <Route path={skills} element={<Skills/>} />
               <Route path={projects} element={<Projects/>} />
               <Route path={work} element={<WorkExperience/>} />
