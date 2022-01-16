@@ -148,7 +148,7 @@ export const projectInformation = [
     content:
       `The template that is used by the site you are looking at right now. 
       (Incase you are wondering I DID NOT copy this from someone's Github, 
-      instead I create it myself from scratch) 
+      instead I created it myself from scratch) 
       The code is abstracted to the point that all information can be edited 
       from a single file which is 'src/Information.js'. 
       Clone this repo and start building your dream portfolio site 
