@@ -39,7 +39,7 @@ export default function ProfileHeader() {
         </a>
       
       </CardContent>
-      <CardActions sx={{ display: "flex", flexDirection: "column"}}>
+      <CardActions sx={{maxWidth: '100%'}}>
         <TabNavBar/>
       </CardActions>
     </Card>
