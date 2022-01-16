@@ -54,50 +54,52 @@ export default function ProjectPost(props) {
 
   return (
     <Transition children={
-      <a target="_blank" href={props.info.link} style={{textDecoration: 'none'}}>
-        <Card
-          sx={{ my: 4 }}
-          className={classes.base}
-          classes={{ root: state.raised ? classes.hover : "" }}
-          onMouseOver={()=>setState({ raised: true, shadow:3})} 
-          onMouseOut={()=>setState({ raised:false, shadow:1 })} 
-          raised={state.raised} 
-          zdepth={state.shadow}
-        >
-          <CardContent>
-            <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
-              <MiniProfileImage />
-              <Box sx={{ mx: 2 }}>
-                <Typography variant="h5">{props.info.title}</Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Tech Stacks Used: {props.info.tech}
-                </Typography>
-              </Box>
-            </Box>
-
-            <Box sx={{ display: "flex" }}
-              className={classes.media}>
-
-              <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
-                {renderImageConditionally()}
+      <Box>
+        <a target="_blank" href={props.info.link} style={{textDecoration: 'none'}}>
+          <Card
+            sx={{ my: 4 }}
+            className={classes.base}
+            classes={{ root: state.raised ? classes.hover : "" }}
+            onMouseOver={()=>setState({ raised: true, shadow:3})} 
+            onMouseOut={()=>setState({ raised:false, shadow:1 })} 
+            raised={state.raised} 
+            zdepth={state.shadow}
+          >
+            <CardContent>
+              <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
+                <MiniProfileImage />
+                <Box sx={{ mx: 2 }}>
+                  <Typography variant="h5">{props.info.title}</Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Tech Stacks Used: {props.info.tech}
+                  </Typography>
+                </Box>
               </Box>
 
-              <Container
-                sx={{
-                  mx: 1,
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                }}
-              >
-                <Typography variant="body1" sx={{ my: 1 }}>
-                  {props.info.content}
-                </Typography>
-              </Container>
-            </Box>
-          </CardContent>
-        </Card>
-      </a>}
-    ></Transition>
+              <Box sx={{ display: "flex" }}
+                className={classes.media}>
+
+                <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
+                  {renderImageConditionally()}
+                </Box>
+
+                <Container
+                  sx={{
+                    mx: 1,
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography variant="body1" sx={{ my: 1 }}>
+                    {props.info.content}
+                  </Typography>
+                </Container>
+              </Box>
+            </CardContent>
+          </Card>
+        </a>
+      </Box>}
+    />
   );
 }

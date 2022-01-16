@@ -13,6 +13,7 @@ import ReactLogo from './assets/ReactLogo.svg'
 import VueLogo from './assets/VueLogo.svg'
 
 import FinancialCalculator from "./assets/FinancialCalculator.jpg";
+import Attendex from "./assets/Attendex.jpg";
 
 import DisplayPicture from "./assets/DisplayPicture.jpg";
 
@@ -33,19 +34,33 @@ export const aboutMeInformation = [
   {
     title: "Introduction",
     content:
-      "Hello Viewer, My name is Ryan Walter Lee, currently a Year 2 Computer Science student at the National University of Singapore.",
+      `Hello Viewer, My name is Ryan Walter Lee, 
+      currently a Year 2 Computer Science student 
+      at the National University of Singapore.`,
   },
 
   {
     title: "Other Interests (besides SWE of course)",
     content:
-      "I enjoy doing calisthenics, in fact, I'm currently the Captain of NUS Calisthenics, a CCA where we help all students to achieve their better self. I'm also a huge MCU and Naruto fan and my youtube suggestions can vouch for that.",
+      `I enjoy doing calisthenics, in fact, 
+      I'm currently the Captain of NUS Calisthenics, 
+      a CCA where we help all students to achieve their better self. 
+      I'm also a huge MCU and Naruto fan and 
+      my youtube suggestions can vouch for that.`,
   },
 
   {
     title: "Career Goals",
     content:
-      "My long term goal is to be a software engineer. I like software engineering because of the amount of challenge it brings. The process of building a website or app is very tough, but the satisfaction of making something work or successfully debugging triumphs all. As such, I am looking for software engineering internships during my summer (May - end July, full time) and winter (Dec full time, Jan part time) breaks.",
+      `My long term goal is to be a software engineer. 
+      I like software engineering because of the 
+      amount of challenge it brings. 
+      The process of building a website or app is very tough, 
+      but the satisfaction of making something 
+      work or successfully debugging triumphs all. 
+      As such, I am looking for software engineering internships 
+      during my summer (May - end July, full time) and 
+      winter (Dec full time, Jan part time) breaks.`,
   },
 ];
 
@@ -81,6 +96,7 @@ export const libraries = [
 export const projectInformation = [
   {
     title: "Attendex Backend",
+    image: Attendex,
     content: 
       `An attendance app that keeps tracks of multiple classes with each class 
       having multiple dates. 
@@ -88,7 +104,7 @@ export const projectInformation = [
       their classes for future records. 
       A MySQL relational database was used to store this app's data 
       with the endpoints made with Express.js. 
-      Click on this card to view the code, schema and documentation for this project`,
+      Click on this card to view the code, schema and documentation for this project.`,
     tech: "Express.js, mysql2 driver, MySQL, MySQL workbench",
     link: "https://github.com/Attendex/attendex-backend"
   },
@@ -101,7 +117,7 @@ export const projectInformation = [
       and the web app will help calculate the statistics 
       that indicates if this stock is worthy of being added to your portfolio 
       based on Fundamental Analysis Principles from a book by Warren Buffett. 
-      Click on this card to view the code and the deployed app`,
+      Click on this card to view the code and the deployed app.`,
     tech: "Vue.js, Vuex, Vue Router, Axios",
     link: "https://github.com/ryanwalterlee/Financial-Calculator",
   },
@@ -111,7 +127,7 @@ export const projectInformation = [
     content:
       `An API that scrapes past 10 years EPS and PE ratio of a company
       that is on the stock exchange. A ticker is needed for the GET request. 
-      This API is used by Financial Calculator Project. Click on this card to view the code on Github`,
+      This API is used by Financial Calculator Project. Click on this card to view the code on Github.`,
     tech: "Express.js, Puppeteer",
     link: "https://github.com/ryanwalterlee/Historic-Financial-WebScraping-API",
   },
@@ -120,11 +136,13 @@ export const projectInformation = [
     title: "Personal Portfolio Website Template",
     content:
       `The template that is used by the site you are looking at right now. 
+      (Incase you are wondering I DID NOT copy this from someone's Github, 
+      instead I create it myself from scratch) 
       The code is abstracted to the point that all information can be edited 
       from a single file which is 'src/Information.js'. 
       Clone this repo and start building your dream portfolio site 
       in a social media profile theme. Click on this card to visit the Github repo 
-      and maybe clone it for your own use`,
+      and maybe clone it for your own use.`,
     tech: "React.js, React Router, Material UI",
     link: "https://github.com/ryanwalterlee/portfolio-site-template",
   },

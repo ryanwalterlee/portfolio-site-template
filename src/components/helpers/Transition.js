@@ -17,7 +17,7 @@ export default function Transition(props) {
       // offset={{top:10}}
       // minTopValue='200'
     >
-      <Grow in={active}>
+      <Grow in={active} timeout={1000}>
         {props.children}
       </Grow>
     </VizSensor>
