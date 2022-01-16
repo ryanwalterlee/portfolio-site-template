@@ -40,6 +40,17 @@ export const aboutMeInformation = [
   },
 
   {
+    title: "Why I love Computer Science",
+    content: `What I love about computer science is the problem-solving 
+      challenges that I get to face every day. When first approaching a task 
+      that seems insurmountable, I tackle it by starting from the basics, 
+      by learning the underlying theories first before I begin an attempt 
+      at implementation. This way, I ensure that I learn the fastest as well as 
+      complete the task in as little time as possible as I believe a strong 
+      understanding in anything is crucial to dominating any tasks thrown at me.`
+  },
+
+  {
     title: "Other Interests (besides SWE of course)",
     content:
       `I enjoy doing calisthenics, in fact, 
