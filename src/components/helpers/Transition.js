@@ -13,9 +13,8 @@ export default function Transition(props) {
           setActive(isVisible);
         }
       }}
-      // partialVisibility='top'
-      // offset={{top:10}}
-      // minTopValue='200'
+      partialVisibility='top'
+      minTopValue='30'
     >
       <Grow in={active} timeout={1000}>
         {props.children}
