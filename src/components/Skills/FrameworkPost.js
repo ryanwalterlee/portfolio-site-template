@@ -4,7 +4,6 @@ import Typography from "@mui/material/Typography";
 import Box from "@material-ui/core/Box";
 import MiniProfileImage from "../MiniProfileImage/MiniProfileImage";
 import FrameworkLogo from "./FrameworkLogo";
-import Grow from "@mui/material/Grow";
 import Transition from "../helpers/Transition";
 
 // props:

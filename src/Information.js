@@ -4,6 +4,7 @@
 // YOU MIGHT HAVE TO ADD IMAGES TO src/assets IF YOU WANT OTHER IMAGES
 import html from 'programming-languages-logos/src/html/html.svg'
 import javascript from 'programming-languages-logos/src/javascript/javascript.svg'
+import typescript from 'programming-languages-logos/src/typescript/typescript.svg'
 import python from 'programming-languages-logos/src/python/python.svg'
 import java from 'programming-languages-logos/src/java/java.svg'
 import r from 'programming-languages-logos/src/r/r.svg'
@@ -16,6 +17,7 @@ import FinancialCalculator from "./assets/FinancialCalculator.jpg";
 import Attendex from "./assets/Attendex.jpg";
 
 import DisplayPicture from "./assets/DisplayPicture.jpg";
+import { type } from '@testing-library/user-event/dist/type'
 
 // REPOSITORY NAME (IMPORTANT!!)
 export const repositoryName = "portfolio-site-template";
@@ -27,7 +29,7 @@ export const linkedin = "https://www.linkedin.com/in/ryan-walter-lee-534512193/"
 export const github = "https://github.com/ryanwalterlee";
 
 export const name = "Ryan Walter Lee";
-export const description = "Year 2 NUS Computer Science";
+export const description = "Year 3 NUS Computer Science";
 
 // ABOUT ME PAGE
 export const aboutMeInformation = [
@@ -41,13 +43,13 @@ export const aboutMeInformation = [
 
   {
     title: "Why I love Computer Science",
-    content: `What I love about computer science is the problem-solving 
-      challenges that I get to face every day. When first approaching a task 
-      that seems insurmountable, I tackle it by starting from the basics, 
-      by learning the underlying theories first before I begin an attempt 
-      at implementation. This way, I ensure that I learn the fastest as well as 
-      complete the task in as little time as possible as I believe a strong 
-      understanding in anything is crucial to dominating any tasks thrown at me.`
+    content: `Something that I like about coding is prospect of writing clean code.
+      After completing a task, I find myself going back to clean it up over multiple iterations.
+      For example, I could first start by abstracting functions and components,
+      then find ways to turn the code into something more understandable through function programming,
+      and maybe afterwards I would collate all the string constants into a single file. Somehow,
+      I have more motivation cleaning code than cleaning my room.
+    `
   },
 
   {
@@ -56,7 +58,7 @@ export const aboutMeInformation = [
       `I enjoy doing calisthenics, in fact, 
       I'm currently the Captain of NUS Calisthenics, 
       a CCA where we help all students to achieve their better self. 
-      I'm also a huge MCU and Naruto fan and 
+      I'm also a huge MCU, Naruto and Pokemon fan and 
       my youtube suggestions can vouch for that.`,
   },
 
@@ -70,14 +72,14 @@ export const aboutMeInformation = [
       but the satisfaction of making something 
       work or successfully debugging triumphs all. 
       As such, I am looking for software engineering internships 
-      during my summer (May - end July, full time) and 
-      winter (Dec full time, Jan part time) breaks.`,
+      during summer (May - end July, full time)`,
   },
 ];
 
 // SKILLS PAGE
 export const languages = [
   { logo: javascript, name: "Javascript" },
+  { logo: typescript, name: "Typescript"},
   { logo: html, name: "HTML" },
   { logo: css, name: "CSS" },
   { logo: python, name: "Python" },
@@ -168,15 +170,19 @@ export const projectInformation = [
 // content (array of descriptions)
 export const workInformation = [
   {
-    title: "Full Stack Developer",
-    company: "Comand.cc",
-    duration: "Dec 2021 - Jan 2022",
+    title: "FrontEnd Web Developer",
+    company: "Growthbeans",
+    duration: "May 2022 - July 2022",
     content: [
-      "Develop user-facing applications to enhance functionality and user experience",
-      "Built modular and reusable components using Vue.js to maintain code extendibility and reusability",
-    ],
+      "Worked in a team of 4 to develop the GrowthCircles web application from scratch",
+      "Built modular and reusable components using React to maximise code extensibility and reusability",
+      "Followed Figma UI created by the UI team closely to create aesthetic interfaces using CSS",
+      "Navigate ambiguity in requirements in the UI to output as much as possible given the constraints",
+      "Integrated Firebase to React to display and store user data using various custom React Hooks",
+      "Spotted a potential asynchronous bug, improved on the Firebase document structure and refactored the entire codebase to suit the new structure, leading to the prevention of the bug as well as cleaner and easier to understand code due to a more suitable Firebase structure",
+      "Refactored entire codebase from Javascript to Typescript which reduced type-related and object-field related bugs, increase the understandability of code and increase the speed of future development",
+    ]
   },
-
   {
     title: "Production Technician",
     company: "Wateroam",
