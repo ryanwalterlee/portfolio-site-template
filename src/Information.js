@@ -37,7 +37,7 @@ export const aboutMeInformation = [
     title: "Introduction",
     content:
       `Hello Viewer, My name is Ryan Walter Lee, 
-      currently a Year 2 Computer Science student 
+      currently a Year 3 Computer Science student 
       at the National University of Singapore.`,
   },
 
@@ -84,7 +84,6 @@ export const languages = [
   { logo: css, name: "CSS" },
   { logo: python, name: "Python" },
   { logo: java, name: "Java" },
-  { logo: r, name: "R" },
   { logo: MySQLlogo, name: "SQL"}
 ]
 
