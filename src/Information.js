@@ -37,7 +37,7 @@ export const aboutMeInformation = [
     title: "Introduction",
     content:
       `Hello Viewer, My name is Ryan Walter Lee, 
-      currently a Year 3 Computer Science student 
+      currently a Year 4 Computer Science student 
       at the National University of Singapore.`,
   },
 
@@ -56,7 +56,7 @@ export const aboutMeInformation = [
     title: "Other Interests (besides SWE of course)",
     content:
       `I enjoy doing calisthenics, in fact, 
-      I'm currently the Captain of NUS Calisthenics, 
+      I'm currently the Ex-Captain of NUS Calisthenics, 
       a CCA where we help all students to achieve their better self. 
       I'm also a huge MCU, Naruto and Pokemon fan and 
       my youtube suggestions can vouch for that.`,
@@ -71,8 +71,7 @@ export const aboutMeInformation = [
       The process of building a website or app is very tough, 
       but the satisfaction of making something 
       work or successfully debugging triumphs all. 
-      As such, I am looking for software engineering internships 
-      during summer (May - end July, full time)`,
+      As such, I am looking for full time software engineer roles`,
   },
 ];
 
@@ -168,6 +167,17 @@ export const projectInformation = [
 // duration (string), 
 // content (array of descriptions)
 export const workInformation = [
+  {
+    title: "Full Stack Developer",
+    company: "GIC",
+    duration: "Jan 2023 - Jun 2023",
+    content: [
+      "Worked on an internal full stack web application which is meant to help portfolio managers investing in public equities to make investment decisions",
+      "Develop features in the frontend with Next.js, RTK query and an internal UI library, backend with Loopback Framework in TypeScript, Microservice in .Net Framework and MsSQL for databases",
+      "Created a Python microservice from scratch using an internal boilerplate repository that uses FastAPI. This allowed users to obtain live portfolio data instead of outdated data",
+      "Implemented JSON logging with Winston following a Backend for Frontend (BFF) architecture, thereby enhancing system observability by adding correlation IDs to all incoming and outgoing requests. The correlation ID implementation enables seamless end-to-end logging, and facilitates efficient tracking and linking of logs across microservices",
+    ]
+  },
   {
     title: "FrontEnd Web Developer",
     company: "Growthbeans",
