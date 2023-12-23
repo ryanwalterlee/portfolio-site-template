@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site-template/static/css/main.4e7b7c4f.css",
-    "main.js": "/portfolio-site-template/static/js/main.24a1974e.js",
+    "main.js": "/portfolio-site-template/static/js/main.66ac29a3.js",
     "static/js/787.0e26f435.chunk.js": "/portfolio-site-template/static/js/787.0e26f435.chunk.js",
     "static/media/FinancialCalculator.jpg": "/portfolio-site-template/static/media/FinancialCalculator.13f94dc27fefda49d0d4.jpg",
     "static/media/roboto-all-500-normal.woff": "/portfolio-site-template/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
@@ -26,7 +26,7 @@
     "static/media/roboto-cyrillic-400-normal.woff2": "/portfolio-site-template/static/media/roboto-cyrillic-400-normal.5e493812deabd1d01e60.woff2",
     "static/media/roboto-cyrillic-700-normal.woff2": "/portfolio-site-template/static/media/roboto-cyrillic-700-normal.0334efc0de1012200889.woff2",
     "static/media/roboto-cyrillic-300-normal.woff2": "/portfolio-site-template/static/media/roboto-cyrillic-300-normal.48e4b37ecbc5e155460e.woff2",
-    "static/media/ReactLogo.svg": "/portfolio-site-template/static/media/ReactLogo.a44bcd74fef6a7a4d3742bbaa4914629.svg",
+    "static/media/ReactLogo.svg": "/portfolio-site-template/static/media/ReactLogo.ae62622598f39552abdcdb023e554c6f.svg",
     "static/media/roboto-greek-300-normal.woff2": "/portfolio-site-template/static/media/roboto-greek-300-normal.7c6b44c55d4d9661e3ed.woff2",
     "static/media/roboto-greek-400-normal.woff2": "/portfolio-site-template/static/media/roboto-greek-400-normal.1cbfc636c911faa4d0ca.woff2",
     "static/media/roboto-greek-500-normal.woff2": "/portfolio-site-template/static/media/roboto-greek-500-normal.007ca18d2cbae7381b39.woff2",
@@ -48,13 +48,13 @@
     "static/media/javascript.svg": "/portfolio-site-template/static/media/javascript.f719efab5b799ddc35b5055935a3cedd.svg",
     "static/media/css.svg": "/portfolio-site-template/static/media/css.6103e9f2443893be2fa53eef3dd9d1f1.svg",
     "index.html": "/portfolio-site-template/index.html",
-    "static/media/VueLogo.svg": "/portfolio-site-template/static/media/VueLogo.7219cc0384993fc067ee20c94a66b1e9.svg",
+    "static/media/VueLogo.svg": "/portfolio-site-template/static/media/VueLogo.c286d2da48ffbf281f407b0c4c94271f.svg",
     "main.4e7b7c4f.css.map": "/portfolio-site-template/static/css/main.4e7b7c4f.css.map",
-    "main.24a1974e.js.map": "/portfolio-site-template/static/js/main.24a1974e.js.map",
+    "main.66ac29a3.js.map": "/portfolio-site-template/static/js/main.66ac29a3.js.map",
     "787.0e26f435.chunk.js.map": "/portfolio-site-template/static/js/787.0e26f435.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7b7c4f.css",
-    "static/js/main.24a1974e.js"
+    "static/js/main.66ac29a3.js"
   ]
 }
