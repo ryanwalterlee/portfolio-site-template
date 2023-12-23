@@ -29,7 +29,7 @@ export const linkedin = "https://www.linkedin.com/in/ryan-walter-lee-534512193/"
 export const github = "https://github.com/ryanwalterlee";
 
 export const name = "Ryan Walter Lee";
-export const description = "Year 3 NUS Computer Science";
+export const description = "Year 4 NUS Computer Science";
 
 // ABOUT ME PAGE
 export const aboutMeInformation = [
