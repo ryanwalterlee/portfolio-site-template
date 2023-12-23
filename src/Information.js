@@ -56,7 +56,7 @@ export const aboutMeInformation = [
     title: "Other Interests (besides SWE of course)",
     content:
       `I enjoy doing calisthenics, in fact, 
-      I'm currently the Ex-Captain of NUS Calisthenics, 
+      I was the Ex-Captain of NUS Calisthenics, 
       a CCA where we help all students to achieve their better self. 
       I'm also a huge MCU, Naruto and Pokemon fan and 
       my youtube suggestions can vouch for that.`,
